@@ -21,6 +21,7 @@ export default class Todoinput extends Component {
     render() {
         return (
             <div>
+                <h1>TODOLIST：</h1>
                 <input name="n1" onChange={(e)=>this.handleChange(e)} value={this.state.n1} onKeyDown={(e)=>this.handleInput(e)} type="text"/>
             </div>
         )
